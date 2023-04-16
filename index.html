@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <div class="warning hidden">
+                В тесте нет вопросов,<br> возращайтесь позже
+            </div>
+            
+            <div class="quiz hidden">
+                <h1 class="quiz__header">Тест на знание javascript</h1>
+                <div class="quiz__progress">
+                    <div class="quiz__progress-inner"></div>
+                </div>
+                <div class="quiz_content">
+                    <h2 class="quiz_content__title">
+                        <!-- ЗАДАЕМ ЗНАЧЕНИЕ В JS -->
+                    </h2>
+                    <pre class="quiz_content__code-wrapper hidden">
+                        <!-- ЗАДАЕМ ЗНАЧЕНИЕ В JS -->
+                    </pre>
+                    <ul class="quiz_list">
+                    </ul>
+                </div>
+                <div class="quiz_footer">
+                    <div class="quiz_footer__total">
+                        <!-- ЗАДАЕМ ЗНАЧЕНИЕ В JS -->
+                    </div>
+                    <div class="quiz_footer__btn-next">Следующий</div>
+                </div>
+            </div>
+
+            <div class="result hidden">
+                <div class="result__img">
+                    <img src="./assets/favicon.ico" alt="Quiz end">
+                </div>
+                <h1 class="result__title">Вы завершили тест!</h1>
+                <h2 class="result__text">
+                    <!-- ЗАДАЕМ ЗНАЧЕНИЕ В JS -->
+                </h2>
+                <div class="result__btn">
+                    <a href="/" class="result__restart">Начать заново</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
