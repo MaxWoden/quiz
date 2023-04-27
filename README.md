@@ -1,1 +1,1 @@
-# Квиз на знание джаваскрипта
+# QUIZ for knowledge javascirpt
