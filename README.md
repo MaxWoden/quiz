@@ -1,1 +1,1 @@
-# QUIZ FOR KNOWLEDGE JAVASCRIPT
+# Квиз на знание джаваскрипта
